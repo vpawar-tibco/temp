@@ -1,8 +1,98 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <repository xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xmlns = "http://www.tibco.com/xmlns/repo/types/2002">
 	<globalVariables>
-	<globalVariable>
-			<name>newProperty</name>
+		<globalVariable>
+			<name>//RestApp.module//BW.DOMAIN.NAME</name>
+			<value></value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+			<useLookupValue>false</useLookupValue>
+		</globalVariable>
+		<globalVariable>
+			<name>//RestApp.module//BW.MODULE.VERSION</name>
+			<value></value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+			<useLookupValue>false</useLookupValue>
+		</globalVariable>
+		<globalVariable>
+			<name>//RestApp.module//BW.HOST.NAME</name>
+			<value>localhost</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+			<useLookupValue>false</useLookupValue>
+		</globalVariable>
+		<globalVariable>
+			<name>//RestApp.module//BW.APPNODE.NAME</name>
+			<value></value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+			<useLookupValue>false</useLookupValue>
+		</globalVariable>
+		<globalVariable>
+			<name>//RestApp.module//BW.MODULE.NAME</name>
+			<value></value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+			<useLookupValue>false</useLookupValue>
+		</globalVariable>
+		<globalVariable>
+			<name>//RestApp.module//BW.DEPLOYMENTUNIT.TYPE</name>
+			<value></value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+			<useLookupValue>false</useLookupValue>
+		</globalVariable>
+		<globalVariable>
+			<name>//RestApp.module//BW.DEPLOYMENTUNIT.VERSION</name>
+			<value></value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+			<useLookupValue>false</useLookupValue>
+		</globalVariable>
+		<globalVariable>
+			<name>//RestApp.module//BW.APPSPACE.NAME</name>
+			<value></value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+			<useLookupValue>false</useLookupValue>
+		</globalVariable>
+		<globalVariable>
+			<name>//RestApp.module//newProperty</name>
+			<value>test</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+			<useLookupValue>false</useLookupValue>
+		</globalVariable>
+		<globalVariable>
+			<name>//RestApp.module//BW.DEPLOYMENTUNIT.NAME</name>
+			<value></value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+			<useLookupValue>false</useLookupValue>
+		</globalVariable>
+		<globalVariable>
+			<name>//RestApp.module//newProperty</name>
 			<value>test</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
@@ -12,3 +102,4 @@
 		</globalVariable>
 	</globalVariables>
 </repository>
+
